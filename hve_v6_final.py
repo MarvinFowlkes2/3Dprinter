@@ -2,7 +2,7 @@ import shodan
 import requests
 import time
 
-SHODAN_API_KEY = "Of7Srecev8GkfsGLbDL5dF3OQEqzxPJ9"
+SHODAN_API_KEY = ""
 api = shodan.Shodan(SHODAN_API_KEY)
 
 def run_test(query_name, search_query):
@@ -59,4 +59,5 @@ if t_t > 0:
     print(f"DECEPTION INDEX: {deception_index:.1f}%")
 else:
     print("DECEPTION INDEX: N/A")
+
 print("="*50)
